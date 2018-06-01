@@ -1,0 +1,89 @@
+body{
+     
+    color:orange;
+    background-color: black;
+    font-family: verdana;
+    font-size: 20px;
+}
+h1
+{
+    color: orange;
+}
+ul{
+    
+    margin: 0px;
+    border-color:orange;
+    border-width:5px;
+    padding: 25px;
+    
+    list-style: none;
+}
+ul li{
+    float: left;
+    width:200px;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 5px;
+    
+}
+
+ul li a
+{
+    text-decoration: none;
+    display:block;
+}
+ul li a:hover
+{
+   background-color: #fffdd0;
+   
+}
+
+ul li ul li 
+{
+    display: none;
+}
+ul li:hover ul li
+{
+    display:block;
+    background-color: #fffdd0;
+    opacity: .7;
+}
+:hover ul li ul li
+{
+    background-color: #fffdd0;
+}
+
+.photo
+{  
+    background-color: orange;
+    margin: 0 auto;
+    width:100%;
+    position: absolute;
+    text-align: center;
+
+}
+.img{
+    
+    border-radius: 50%;
+    width:300px;
+    
+}
+.para
+{
+    font-size: 10px;
+}
+.backtotop
+{
+    background-color: black;
+    opacity: .70;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+}
+.gaming
+{
+    background-color: black;
+    
+}
